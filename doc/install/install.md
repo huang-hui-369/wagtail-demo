@@ -69,3 +69,6 @@ hui/huanghui@grandunit.net/Grandunit123@
 ![](img/2021-05-01-22-31-46.png)
 
 
+# install Django extension for Visual Studio Code
+
+![](img/2021-05-02-21-38-59.png)
