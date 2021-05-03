@@ -5,7 +5,15 @@
 
 {% block content %}
 
-this is a subtitle for {{ page.subtitle }} 
+<div>
+    this is a subtitle for {{ page.subtitle }} 
+</div>
 
+<hr>
+
+{% for block in page.content %}
+    {% include_block block %}
+    <hr>
+{% endfor %}
 
 {% endblock content %}
