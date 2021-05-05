@@ -13,12 +13,10 @@ class FlexPage(Page):
 
     template = "flex/flex_page.html"
 
-    # @todo add stream field
-
     content = StreamField(
         [
             ("title_and_text", myblocks.TitleAndTextBlock()),
-            #("prograph", blocks.RichTextBlock()),
+            ("prograph", blocks.RichTextBlock()),
         ],
         null=True,
         blank=True,
